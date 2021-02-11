@@ -5,6 +5,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+//Glue Codes are here
 public class LoginSteps {
     @Given("user is on login page")
     public void user_is_on_login_page() {
@@ -24,5 +25,8 @@ public class LoginSteps {
     @Then("user is redirect to home page")
     public void user_is_redirect_to_home_page() {
         System.out.println("Step 4 : user is redirect to home page");
+    }
+    public void demo(){
+        System.out.println("For GitHub");
     }
 }
