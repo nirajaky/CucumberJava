@@ -27,6 +27,6 @@ public class LoginSteps {
         System.out.println("Step 4 : user is redirect to home page");
     }
     public void demo(){
-        System.out.println("For GitHub");
+        System.out.println("For GitHub 3rd Commit");
     }
 }
